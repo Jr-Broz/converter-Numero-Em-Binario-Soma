@@ -20,13 +20,13 @@ public static void transformarBinario(){
     int n2 = myObj.nextInt();
     myObj.close();
 
-        int soma = n1 + n2;
+    int soma = n1 + n2;
 
     System.out.println("Esse e o primeiro valor que você colocou em binario: " + Integer.toBinaryString(n1));
 
     System.out.println("--------------------------------------------------------------------------");
     System.out.println("Esse e o segundo valor que você colocou em binario: " + Integer.toBinaryString(n2));
- System.out.println("------------------------------------------------------------------------------");
+    System.out.println("------------------------------------------------------------------------------");
     System.out.println("Essa e a soma dos numeros em binario: " + Integer.toBinaryString(soma) );
 }    
 }
